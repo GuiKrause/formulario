@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    padding: 16px;
+    background-color: rgb(201, 201, 201);
+}
+
+div {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastrar {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
+
+.sexo {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox input {
+    width: fit-content;
+}
